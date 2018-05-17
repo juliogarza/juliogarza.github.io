@@ -1,9 +1,23 @@
-<h1> {{site.title}} </h1>
-<h2> {{page.title}} </h2>
-<p> My pages: </p>
-<p><a href="index.html"> Home </a></p>
-<p><a href="doggies.html"> Doggies </a></p>
-<hr />
-
-{{ content }}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title> {{page.title}} </title>
+  </head>
+  <body>
+    <header>
+      <h1> {{site.title}} </h1>
+      <h2> {{page.title}} </h2>
+      <p><a href="index.html"> Home </a></p>
+      <p><a href="doggies.html"> Doggies </a></p>
+      <hr />
+    </header>
+    {{ content }}
+    <footer>
+      <div class="container">
+        <p class="center-text"> Created by Julio Garza </p>
+      <div>  
+    </footer>
+  </body>
+</html>  
 
