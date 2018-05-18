@@ -1,14 +1,22 @@
-h1 {
+#header-site-title {
 color: green;
 }
 
-#img90
+header {
+background-color: grey;
+}
+
+footer {
+background-color: grey;
+text-align: center;
+}
+
+<!--
+img
 {
-  <!--
  -moz-transform: rotate(90deg);
  -o-transform: rotate(90deg);
  -webkit-transform: rotate(90deg);
-  -->
  transform: rotate(90deg);
 }
-
+-->
