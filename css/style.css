@@ -1,14 +1,43 @@
-#header-site-title {
-color: green;
+body{
+  background-color: #FCCC84;
 }
 
-header {
-background-color: grey;
+.collage {
+  display: grid;
+  grid-gap: 5px;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-auto-rows: 150px;
+  grid-auto-flow: dense;
 }
 
-footer {
-background-color: grey;
-text-align: center;
+.collage > div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.collage > div > img {
+  height:100%;
+  width: 100%;
+  object-fit: fill;
+  <!-- border: black solid 5px; -->
+}
+
+.horizontal-image{
+  grid-column: span 2;
+}
+
+.large-image{
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+.vertical-image{
+  grid-row: span 2;
+}
+
+.rotateccw90{
+  transform: rotate(90deg);
 }
 
 <!--
